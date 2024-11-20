@@ -13,7 +13,7 @@ jobs:
         steps:
             - name: Print Hi again
               run: echo "Hi AGAIN"
-            - name: An step for Fail
-              run: exit 1
+            - name: An step for Pass
+              run: exit 0
             - name: Print GoodBye
               run: echo "Goodbye"
