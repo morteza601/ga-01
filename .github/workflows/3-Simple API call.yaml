@@ -2,9 +2,6 @@ name: 3- Simple API call
 
 on:
   push:
-  schedule:
-   - cron: '51 07 * * *' 
-   - cron: '56 07 * * *'
   workflow_dispatch:
 
 jobs:
